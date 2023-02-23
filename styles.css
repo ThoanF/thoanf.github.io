@@ -1,0 +1,41 @@
+body {
+    margin: auto;
+    text-align: left;
+    /* text align is used for elements that don't have a width set */
+    font-family: 'Merriweather', serif;
+    background-color: #393053;
+    padding: 100px;
+}
+
+h1 {
+    margin: auto;
+    position: relative;
+    left: 20px;
+    /* width: 10%;
+    margin: 0 auto 0 auto; */
+    /* if there is a width set then the margin will need to be specificed*/
+    font-family: 'Montserrat', sans-serif
+    font-size: 5.625em;
+    color: #FFFFFF;
+    line-height: auto;
+}
+
+a {
+    margin: auto;
+    position: relative;
+    left: 20px;
+    color: #ffffff;
+    display: inline-block;
+    text-decoration: none;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    font-weight: normal;
+    position: relative;
+    left: 20px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
